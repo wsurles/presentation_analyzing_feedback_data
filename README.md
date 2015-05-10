@@ -5,7 +5,7 @@ http://www.meetup.com/Analyze-Boulder/events/221365457/
 ### Key topics
  - Lean product development in practice
  - Data products with R and Shiny
- - Apllying the Technology Adopotion Lifecycle to product features
+ - Applying the Technology Adopotion Lifecycle to new product features
 
 The presentation can be viewed here  
 http://wsurles.github.io/presentation_analyzing_feedback_data/#1
