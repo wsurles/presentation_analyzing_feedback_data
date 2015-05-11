@@ -11,9 +11,22 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 --- 
 
-## Slide 2
+## Question 1
 
-Just some text
+What is 1 + 1?
+
+1. 1
+2. 2
+3. 3
+4. 4
+
+hint
+
+This is a hint
+
+explanation
+
+This is an explanation
 
 ---
 
