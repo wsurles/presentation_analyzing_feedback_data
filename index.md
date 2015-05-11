@@ -29,10 +29,34 @@ This is an explanation
 --- &interactive
 ## Interactive Console
 
-``{r opts.label = 'interactive', results = 'asis'}
+
+```r
 require(googleVis)
+```
+
+```
+## Loading required package: googleVis
+```
+
+```
+## Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
+## logical.return = TRUE, : there is no package called 'googleVis'
+```
+
+```r
 M1 <- gvisMotionChart(Fruits, idvar = 'Fruit', timevar = 'Year')
+```
+
+```
+## Error in eval(expr, envir, enclos): could not find function "gvisMotionChart"
+```
+
+```r
 print(M1, tag = 'chart')
+```
+
+```
+## Error in print(M1, tag = "chart"): object 'M1' not found
 ```
 ---
 

@@ -87,17 +87,33 @@
 <div class='row-fluid'>
   <div class='span5'>
     <form id="knitForm2" data-cell="2">
-      <p>``{r opts.label = &#39;interactive&#39;, results = &#39;asis&#39;}
-require(googleVis)
-M1 &lt;- gvisMotionChart(Fruits, idvar = &#39;Fruit&#39;, timevar = &#39;Year&#39;)
-print(M1, tag = &#39;chart&#39;)</p>
-
-<pre><code>---
-
-## Slide 3
-
-More stuff
+      <pre><code class="r">require(googleVis)
 </code></pre>
+
+<pre><code>## Loading required package: googleVis
+</code></pre>
+
+<pre><code>## Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
+## logical.return = TRUE, : there is no package called &#39;googleVis&#39;
+</code></pre>
+
+<pre><code class="r">M1 &lt;- gvisMotionChart(Fruits, idvar = &#39;Fruit&#39;, timevar = &#39;Year&#39;)
+</code></pre>
+
+<pre><code>## Error in eval(expr, envir, enclos): could not find function &quot;gvisMotionChart&quot;
+</code></pre>
+
+<pre><code class="r">print(M1, tag = &#39;chart&#39;)
+</code></pre>
+
+<pre><code>## Error in print(M1, tag = &quot;chart&quot;): object &#39;M1&#39; not found
+</code></pre>
+
+<hr>
+
+<h2>Slide 3</h2>
+
+<p>More stuff</p>
 
       <div id='aceeditor2' style="height:px;"></div>
       <div class='interactive btn-toolbar pull-left'>
