@@ -11,7 +11,7 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 
 --- .segue bg:blue
-## What is the most valuable data set you have at your company?
+->## What is the most valuable data set you have at your company?<-
 
 --- &radio
 ## Question 1
