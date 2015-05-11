@@ -9,13 +9,13 @@ hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
---- .class #id 
+--- 
 
 ## Slide 2
 
 Just some text
 
---- 
+---
 
 ## Slide 3
 
