@@ -9,7 +9,6 @@ hitheme     : tomorrow      #
 widgets     : [bootstrap, quiz]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
---- 
 
 --- &radio
 ## Question 1
